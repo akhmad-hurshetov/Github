@@ -1,0 +1,104 @@
+body{
+    margin: o;
+    padding: 0;
+    background-color: #212529;
+    color: #fff; 
+}
+.header .navbar{
+    margin: 0px;
+    padding: 20px 83px;
+    background-color: #2c3034;
+}
+.header .headerHR{
+      margin: 0px;
+      padding: 0px;
+      border-color: #FF0000;
+}
+.header .navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    margin: 20px;
+}
+.header .navbar a.Logo{
+    color: #ff0000;
+    font-size: 40px;
+    font-weight: bold;
+} 
+
+.header .navbar a.navElements{
+    padding: 5px;
+}
+.header .navbar a.navElements:hover{
+    padding: 5px; 
+    background-color: #ff0000;
+}
+
+.header .img{
+    width: 100%;
+    height: 768px;
+}
+.subscribe{
+    padding: 30px 83px;
+    background-color: #2c3034;
+    height: 120px;
+}
+.subscribe .subscribeText{
+    float: left;
+    font-size: 40px;
+    margin: 20px 83px;
+}
+.subscribe .subscribeInput{
+    float: right;
+}
+.input{
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
+    width: 360px;
+}
+a.btn-red{
+    padding: 14px 20px;
+    background-color: #ff0000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.product-container{
+    height: 600px;
+}
+
+.card{
+    background-color: #2c3034;
+    padding: 25px 15px;
+    text-align: center;
+    float: left;
+    width: 372px;
+    margin: 20px;
+}
+.card .title{
+    font-size: 40px;
+
+}
+.card img{
+    width: 230px;
+}
+.card p{
+    font-size: 23px;
+     
+}
+.footer{
+    display: block; 
+    background-color: #2c3034;
+    padding: 20px 83px;
+}
+@media(max-width: 375px){
+    .header .navbar a.Logo{
+        width: 100%;
+    }
+}
